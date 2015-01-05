@@ -1,0 +1,17 @@
+{
+    "name": "kintso/memcachedcloud-laravel",
+    "description": "This package extends Laravel Cache driver to integrate with MemcachedCloud. MemcachedCloud provides different cache solutions based on memcached or redis. This package only deals with memcached.",
+    "keywords": ["laravel", "memcached", "heroku", "memcachedcloud"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-memcached": "*",
+        "illuminate/support": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "kintso\\MemcachedCloud": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
