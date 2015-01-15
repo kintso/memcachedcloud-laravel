@@ -1,6 +1,6 @@
 <?php 
 
-namespace Pozpom\MemcachedCloud;
+namespace kintso\MemcachedCloud;
 use Memcached;
 
 class MemcachedCloudConnector {
